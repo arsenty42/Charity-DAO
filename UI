@@ -1,0 +1,52 @@
+//Frontend and UI
+
+//Create Project Page
+<html>
+  <head>
+    <title>Create Project</title>
+  </head>
+  <body>
+    <h1>Create Project</h1>
+    <form action="createProject.php" method="post">
+      <label for="name">Name:</label><br>
+      <input type="text" name="name" id="name"><br><br>
+
+      <label for="description">Description:</label><br>
+      <textarea name="description" id="description"></textarea><br><br>
+
+      <label for="photo">Photo:</label><br>
+      <input type="file" name="photo" id="photo"><br><br>
+
+      <label for="location">Location:</label><br>
+      <input type="text" name="location" id="location"><br><br>
+
+      <label for="contactDetails">Contact Details:</label><br>
+      <input type="text" name="contactDetails" id="contactDetails"><br><br>
+
+      <label for="budget">Budget:</label><br>
+      <input type="number" name="budget" id="budget"><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
+
+//Stake NFT Page 
+<html>
+  <head>
+    <title>Stake NFT</title>
+  </head>
+  <body>
+    <h1>Stake NFT</h1>
+    <form action="stakeNFT.php" method="post">
+
+      <label for="nftAddress">NFT Address:</label><br>
+      <input type="text" name="nftAddress" id="nftAddress"><br><br>
+
+      <label for="price">Price:</label><br>
+      <input type="number" name="price" id="price"><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
